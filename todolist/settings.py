@@ -88,6 +88,16 @@ WSGI_APPLICATION = 'todolist.wsgi.application'
 #     }
 # }
 
+DATABASES = {
+    'default': {
+        'ENGINE': 'django.db.backends.postgresql',
+        'NAME': 'bitcoinwallet',
+        'USER': 'postgres',
+        'PASSWORD': 'itztoblex',
+        'HOST': 'localhost'
+    }
+}
+
 # Password validation
 # https://docs.djangoproject.com/en/3.1/ref/settings/#auth-password-validators
 
